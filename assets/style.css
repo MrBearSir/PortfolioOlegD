@@ -1,0 +1,106 @@
+body{
+  background-image:url(./Pictures/backgroundImj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgb(208, 255, 0);
+  -webkit-text-stroke: 1px rgb(73, 0, 0);
+  letter-spacing:2px;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+h1{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.navButtons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.navButton:focus {
+    transform:scale(120%);
+}
+.navButton{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.main{
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+} 
+#Horizeon{
+    width: 400px;
+    height: 280px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    box-shadow:5px 5px 5px black;
+    background-image:url(./Pictures/HorizeonByOleg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Future2{
+    width: 400px;
+    height: 280px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    box-shadow:5px 5px 5px black;
+    background-image:url(./Pictures/second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Future3{
+    width: 400px;
+    height: 280px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    box-shadow:5px 5px 5px black;
+    background-image:url(./Pictures/third.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Future4{
+    width: 400px;
+    height: 280px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    box-shadow:5px 5px 5px black;
+    background-image:url(./Pictures/forth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project:hover {
+    background-color: rgb(255, 0, 43);
+    opacity: 50%;
+    transition: all 0.2s ease-in;
+    box-shadow: 5px 5px 5px grey inset;
+  }  
+.project:focus {
+   transform:scale(120%);
+}
+footer{
+    position:relative;
+    bottom: 0px;
+}
