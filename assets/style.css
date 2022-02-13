@@ -65,14 +65,14 @@ img:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#Future2{
+#Trivializer{
     width: 400px;
     height: 280px;
     padding: 5px;
     margin: 5px;
     text-align: center;
     box-shadow:5px 5px 5px black;
-    background-image:url(./Pictures/second.jpg);
+    background-image:url(./Pictures/LogoTrivializer.JPG);
     background-repeat: no-repeat;
     background-size: cover;
 }
