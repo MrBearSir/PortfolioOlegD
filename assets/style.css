@@ -83,7 +83,7 @@ img:hover{
     margin: 5px;
     text-align: center;
     box-shadow:5px 5px 5px black;
-    background-image:url(./Pictures/third.JPG);
+    background-image:url(./Pictures/car-logo.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
